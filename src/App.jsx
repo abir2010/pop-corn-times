@@ -4,6 +4,7 @@ import Layout from "./components/Layout";
 import Signup from "./components/pages/Signup";
 import Login from "./components/pages/Login";
 import Notfound from "./components/pages/Notfound";
+import Result from "./components/pages/Result";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <Signup />
             <Login />
             <Notfound />
+            <Result />
         </>
     );
 }

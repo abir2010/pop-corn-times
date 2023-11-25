@@ -1,0 +1,20 @@
+/* result component */
+.result {
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.result img {
+    width: 120px;
+}
+.result img:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+.result .watchlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
