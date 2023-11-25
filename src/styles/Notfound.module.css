@@ -1,0 +1,21 @@
+/* notfound component */
+.notfound {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.notfound img {
+    width: 500px;
+    height: 500px;
+}
+@media screen and (max-width: 600px) {
+    .notfound img {
+        width: 200px;
+        height: 200px;
+    }
+    .notfound {
+        height: 100vh;
+    }
+}
