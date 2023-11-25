@@ -1,0 +1,73 @@
+/* modal component */
+.modalcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff; */
+}
+.modal {
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    width: 50%;
+    height: 50vh;
+    padding: 0 5rem;
+    margin-top: 25rem;
+    border-radius: 15px;
+}
+.modal div {
+    background-color: #fff;
+    margin: 2rem 0;
+}
+.modal ul {
+    height: 55%;
+    background-color: #fff;
+}
+.modal ul li {
+    color: #000;
+    background-color: #fff;
+}
+.modal .cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 450px) {
+    .modal {
+        width: 90%;
+        height: 40vh;
+        margin-top: 20rem;
+    }
+    .modal ul {
+        height: 45%;
+        background-color: #fff;
+    }
+}
+@media (min-width: 450px) and (max-width: 700px) {
+    .modal {
+        width: 80%;
+        height: 40vh;
+        margin-top: 20rem;
+    }
+    .modal ul {
+        height: 45%;
+        background-color: #fff;
+    }
+}
+@media (min-width: 700px) and (max-width: 1000px) {
+    .modal {
+        width: 45%;
+        height: 40vh;
+        margin-top: 20rem;
+    }
+    .modal ul {
+        height: 45%;
+        background-color: #fff;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+    .modal ul {
+        height: 45%;
+        background-color: #fff;
+    }
+}

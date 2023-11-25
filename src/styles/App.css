@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Icons+Outlined");
+
+/* 
+color : #E03835 
+color : #202F4E
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    background-color: #202f4e;
+    color: #fff;
+}
+.title {
+    text-align: center;
+    margin: 5px 0;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Dancing Script", cursive;
+    color: #e03835;
+}
+.detail {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+.column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+.info {
+    margin-top: 1rem;
+    text-align: center;
+}
+@media only screen and (max-width: 800px) {
+    .column {
+        display: block;
+    }
+}
