@@ -1,0 +1,16 @@
+.options {
+    display: flex;
+    justify-content: space-around;
+}
+.options img {
+    cursor: pointer;
+}
+.options img:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+@media only screen and (max-width: 450px) {
+    .options {
+        display: grid;
+    }
+}

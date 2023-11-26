@@ -1,0 +1,36 @@
+.details {
+    padding: 0 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid red; */
+}
+@media only screen and (max-width: 800px) {
+    .details {
+        padding: 0;
+        display: block;
+    }
+}
+@media (min-width: 800px) and (max-width: 1200px) {
+    .details {
+        padding: 0 2rem;
+        display: block;
+    }
+}
+
+.information {
+    width: 50%;
+}
+@media only screen and (max-width: 800px) {
+    .information {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+@media (min-width: 800px) and (max-width: 1200px) {
+    .information {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
